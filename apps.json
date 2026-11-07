@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+  "officialLineup": "https://getartcraft.com/apps",
+  "apps": [
+    {
+      "id": "photocraft",
+      "name": "PhotoCraft",
+      "repository": "https://github.com/tapanapon-com/photocraft-th",
+      "status": "thai-release-published",
+      "containsApplicationSource": true,
+      "thaiVersion": "0.20.1-th.1",
+      "thaiArticle": "https://tapanapon.com/blog/photocraft-th-thai-image-editor-mac",
+      "upstream": {
+        "repository": "https://github.com/storytold/photocraft",
+        "releaseTag": "v0.21.0",
+        "releaseUrl": "https://github.com/storytold/photocraft/releases/tag/v0.21.0",
+        "publishedAt": "2026-11-06T20:22:03Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "f68e227026701cf24e0e182530694240e2d3cfe4",
+        "sourceVersion": "0.20.1",
+        "macDownload": "https://github.com/storytold/photocraft/releases/download/v0.21.0/photocraft-0.21.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/photocraft/releases/download/v0.21.0/photocraft-0.21.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/photocraft/releases/download/v0.21.0/photocraft-0.21.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/photocraft/releases/download/v0.21.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "เพิ่มตัวเลือกเก็บภาพรวมเอกสารแบบเต็มขนาดไว้ในไฟล์ .pcraft",
+            "source": "https://github.com/storytold/photocraft/pull/9913"
+          },
+          {
+            "text": "ปรับขั้นตอนบันทึกเพื่อลดการเก็บข้อมูลไฟล์ซ้ำในหน่วยความจำ",
+            "source": "https://github.com/storytold/photocraft/pull/8115"
+          },
+          {
+            "text": "ปรับการนำเข้า PSD/PSB และ EXR ให้ประมวลผลเป็นช่วงที่จำกัดขนาด",
+            "source": "https://github.com/storytold/photocraft/pull/5331"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#photocraft",
+      "thaiReleaseUrl": "https://github.com/tapanapon-com/photocraft-th/releases/tag/v0.20.1-th.1"
+    },
+    {
+      "id": "vectorcraft",
+      "name": "VectorCraft",
+      "repository": "https://github.com/tapanapon-com/vectorcraft-th",
+      "status": "thai-release-published",
+      "containsApplicationSource": true,
+      "thaiVersion": "0.21.0-th.1",
+      "thaiArticle": "https://tapanapon.com/blog/vectorcraft-th-thai-vector-editor-mac",
+      "upstream": {
+        "repository": "https://github.com/storytold/vectorcraft",
+        "releaseTag": "v0.22.0",
+        "releaseUrl": "https://github.com/storytold/vectorcraft/releases/tag/v0.22.0",
+        "publishedAt": "2026-11-06T20:22:17Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "ff9deee46d1c59dc9ecef0b668c25e57cd80b55e",
+        "sourceVersion": "0.21.0",
+        "macDownload": "https://github.com/storytold/vectorcraft/releases/download/v0.22.0/vectorcraft-0.22.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/vectorcraft/releases/download/v0.22.0/vectorcraft-0.22.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/vectorcraft/releases/download/v0.22.0/vectorcraft-0.22.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/vectorcraft/releases/download/v0.22.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "เลือกความละเอียดของพิกัดพาธเมื่อบันทึกไฟล์งานได้",
+            "source": "https://github.com/storytold/vectorcraft/pull/3990"
+          },
+          {
+            "text": "แก้การเปิดไฟล์ EPS ที่สร้างด้วย Ghostscript eps2write",
+            "source": "https://github.com/storytold/vectorcraft/pull/5314"
+          },
+          {
+            "text": "ปรับ PDF export ให้หมึกสีพิเศษที่ชื่อ All หรือ None คงเป็น spot ink",
+            "source": "https://github.com/storytold/vectorcraft/pull/5250"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#vectorcraft",
+      "thaiReleaseUrl": "https://github.com/tapanapon-com/vectorcraft-th/releases/tag/v0.21.0-th.1"
+    },
+    {
+      "id": "filmcraft",
+      "name": "FilmCraft",
+      "repository": "https://github.com/tapanapon-com/filmcraft-th",
+      "status": "thai-release-published",
+      "containsApplicationSource": true,
+      "thaiVersion": "0.17.1-th.1",
+      "thaiArticle": "https://tapanapon.com/blog/filmcraft-th-thai-video-editor",
+      "upstream": {
+        "repository": "https://github.com/storytold/filmcraft",
+        "releaseTag": "v0.18.0",
+        "releaseUrl": "https://github.com/storytold/filmcraft/releases/tag/v0.18.0",
+        "publishedAt": "2026-11-06T20:21:40Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "da535c18433dbe046553733b0ab08ce9bd736a51",
+        "sourceVersion": "0.17.0",
+        "macDownload": "https://github.com/storytold/filmcraft/releases/download/v0.18.0/filmcraft-0.18.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/filmcraft/releases/download/v0.18.0/filmcraft-0.18.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/filmcraft/releases/download/v0.18.0/filmcraft-0.18.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/filmcraft/releases/download/v0.18.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "ปรับข้อมูล composition ระดับบนใน AAF ให้มี Usage_TopLevel ตามที่ลงทะเบียนไว้",
+            "source": "https://github.com/storytold/filmcraft/pull/3987"
+          },
+          {
+            "text": "แก้การจัดการเครื่องหมาย < ที่ไม่ปิดในข้อความคำบรรยาย TTML",
+            "source": "https://github.com/storytold/filmcraft/pull/4105"
+          },
+          {
+            "text": "ตรวจช่วงข้อมูล sample ใน MP4 ก่อนจองหน่วยความจำบนเว็บ",
+            "source": "https://github.com/storytold/filmcraft/pull/4102"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#filmcraft",
+      "thaiReleaseUrl": "https://github.com/tapanapon-com/filmcraft-th/releases/tag/v0.17.1-th.1"
+    },
+    {
+      "id": "lightcraft",
+      "name": "LightCraft",
+      "repository": "https://github.com/tapanapon-com/lightcraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/lightcraft",
+        "releaseTag": "v0.19.0",
+        "releaseUrl": "https://github.com/storytold/lightcraft/releases/tag/v0.19.0",
+        "publishedAt": "2026-11-06T20:21:50Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "8a0b91a95c30618b690374dd2db9d0684ebc9b23",
+        "sourceVersion": "0.18.0",
+        "macDownload": "https://github.com/storytold/lightcraft/releases/download/v0.19.0/lightcraft-0.19.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/lightcraft/releases/download/v0.19.0/lightcraft-0.19.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/lightcraft/releases/download/v0.19.0/lightcraft-0.19.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/lightcraft/releases/download/v0.19.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "ใช้ไลบรารี craftlib สำหรับการอ่านไฟล์ CRW",
+            "source": "https://github.com/storytold/lightcraft/pull/3503"
+          },
+          {
+            "text": "แก้การเลือกโปรไฟล์เลนส์เมื่อต่อ teleconverter ไม่ให้ใช้โปรไฟล์ของเลนส์เดี่ยวผิดชุด",
+            "source": "https://github.com/storytold/lightcraft/pull/3660"
+          },
+          {
+            "text": "ปรับการครอปหลังแก้ความคลาดเลนส์ให้อยู่ภายในภาพที่แก้แล้ว",
+            "source": "https://github.com/storytold/lightcraft/pull/3012"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#lightcraft"
+    },
+    {
+      "id": "pdfcraft",
+      "name": "PdfCraft",
+      "repository": "https://github.com/tapanapon-com/pdfcraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/pdfcraft",
+        "releaseTag": "v0.19.0",
+        "releaseUrl": "https://github.com/storytold/pdfcraft/releases/tag/v0.19.0",
+        "publishedAt": "2026-11-06T20:21:58Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "f42fda734243b66f54db87923d7c981d5221419e",
+        "sourceVersion": "0.18.1",
+        "macDownload": "https://github.com/storytold/pdfcraft/releases/download/v0.19.0/pdfcraft-0.19.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/pdfcraft/releases/download/v0.19.0/pdfcraft-0.19.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/pdfcraft/releases/download/v0.19.0/pdfcraft-0.19.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/pdfcraft/releases/download/v0.19.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "เตรียมเรนเดอร์หน้าที่อยู่ถัดจากตำแหน่งเลื่อนในมุมมองต่อเนื่อง",
+            "source": "https://github.com/storytold/pdfcraft/pull/6063"
+          },
+          {
+            "text": "ปรับการเลื่อนด้วยล้อเมาส์ให้ต่อเนื่องและรักษาระยะการเลื่อนอย่างละเอียด",
+            "source": "https://github.com/storytold/pdfcraft/pull/6031"
+          },
+          {
+            "text": "ปรับ Optimize ให้เข้ารหัสภาพ JBIG2 เฉพาะรูปแบบที่ตัวอ่านของแอปรองรับ",
+            "source": "https://github.com/storytold/pdfcraft/pull/5511"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#pdfcraft"
+    },
+    {
+      "id": "effectcraft",
+      "name": "EffectCraft",
+      "repository": "https://github.com/tapanapon-com/effectcraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/effectcraft",
+        "releaseTag": "v0.22.0",
+        "releaseUrl": "https://github.com/storytold/effectcraft/releases/tag/v0.22.0",
+        "publishedAt": "2026-11-06T20:26:02Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "bb2d2005cee68458a10ae2cc32d609d070b21744",
+        "sourceVersion": "0.21.0",
+        "macDownload": "https://github.com/storytold/effectcraft/releases/download/v0.22.0/effectcraft-0.22.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/effectcraft/releases/download/v0.22.0/effectcraft-0.22.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/effectcraft/releases/download/v0.22.0/effectcraft-0.22.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/effectcraft/releases/download/v0.22.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "เก็บ matte ที่ Freeze ใน Roto Brush ไว้ในเซสชันได้แม้ไม่มีโมเดลนั้น",
+            "source": "https://github.com/storytold/effectcraft/pull/2834"
+          },
+          {
+            "text": "ปรับการนำเข้า EDL ให้ใช้ source timecode ของแต่ละไฟล์ได้ตรงตำแหน่ง",
+            "source": "https://github.com/storytold/effectcraft/pull/2835"
+          },
+          {
+            "text": "กำหนดโปรไฟล์ Rec. 2100 ให้การนำเข้าวิดีโอ BT.2020 PQ และ HLG",
+            "source": "https://github.com/storytold/effectcraft/pull/2852"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#effectcraft"
+    },
+    {
+      "id": "designcraft",
+      "name": "DesignCraft",
+      "repository": "https://github.com/tapanapon-com/designcraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/designcraft",
+        "releaseTag": "v0.18.0",
+        "releaseUrl": "https://github.com/storytold/designcraft/releases/tag/v0.18.0",
+        "publishedAt": "2026-11-06T20:21:31Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "e977f825583f85f6a34cebdc45adad100c7f9e68",
+        "sourceVersion": "0.17.0",
+        "macDownload": "https://github.com/storytold/designcraft/releases/download/v0.18.0/designcraft-0.18.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/designcraft/releases/download/v0.18.0/designcraft-0.18.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/designcraft/releases/download/v0.18.0/designcraft-0.18.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/designcraft/releases/download/v0.18.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "เพิ่มงาน parent pages และ alternate layouts พร้อมส่งออกหรือพิมพ์แต่ละ layout/version",
+            "source": "https://github.com/storytold/designcraft/pull/1342"
+          },
+          {
+            "text": "แก้การคัดลอกกรอบที่มีกรอบข้อความยึดอยู่ให้คงเนื้อหาข้อความไว้",
+            "source": "https://github.com/storytold/designcraft/pull/2348"
+          },
+          {
+            "text": "ปรับตารางเครดิตใน About ให้พอดีหน้าต่างและปรับขนาดคอลัมน์ได้",
+            "source": "https://github.com/storytold/designcraft/pull/2264"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#designcraft"
+    },
+    {
+      "id": "figcraft",
+      "name": "FigCraft",
+      "repository": "https://github.com/tapanapon-com/figcraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/figcraft",
+        "releaseTag": "v0.16.0",
+        "releaseUrl": "https://github.com/storytold/figcraft/releases/tag/v0.16.0",
+        "publishedAt": "2026-11-06T20:21:35Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "bb4680d1b820f5dc345eaeb34ddff581a5b46017",
+        "sourceVersion": "0.15.0",
+        "macDownload": "https://github.com/storytold/figcraft/releases/download/v0.16.0/figcraft-0.16.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/figcraft/releases/download/v0.16.0/figcraft-0.16.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/figcraft/releases/download/v0.16.0/figcraft-0.16.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/figcraft/releases/download/v0.16.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "ปรับการประมวลผลข้อมูล keyed-list ในงานร่วมกันให้ใช้ดัชนีภายใน batch",
+            "source": "https://github.com/storytold/figcraft/pull/1893"
+          },
+          {
+            "text": "แจ้งปฏิเสธรูปแบบเส้นประที่ไม่ถูกต้อง แทนการทิ้งค่าบางส่วนเงียบ ๆ",
+            "source": "https://github.com/storytold/figcraft/pull/1899"
+          },
+          {
+            "text": "แก้การคงระยะกวาดของวงรีในไฟล์ .fig เมื่อมุมเริ่มต้นหมุนหลายรอบ",
+            "source": "https://github.com/storytold/figcraft/pull/1891"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#figcraft"
+    },
+    {
+      "id": "texturecraft",
+      "name": "TextureCraft",
+      "repository": "https://github.com/tapanapon-com/texturecraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/texturecraft",
+        "releaseTag": "v0.4.0",
+        "releaseUrl": "https://github.com/storytold/texturecraft/releases/tag/v0.4.0",
+        "publishedAt": "2026-11-06T20:22:12Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "30414caa6b66c9d805cd5ada31271aee44f2c601",
+        "sourceVersion": "0.3.1",
+        "macDownload": "https://github.com/storytold/texturecraft/releases/download/v0.4.0/texturecraft-0.4.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/texturecraft/releases/download/v0.4.0/texturecraft-0.4.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/texturecraft/releases/download/v0.4.0/texturecraft-0.4.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/texturecraft/releases/download/v0.4.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "กู้เปิดโปรเจกต์เก่าที่ใช้ค่า bake settings ซึ่งเข้ากับรุ่นปัจจุบันไม่ได้",
+            "source": "https://github.com/storytold/texturecraft/pull/248"
+          },
+          {
+            "text": "เพิ่มรายการ mesh map bakers และการตั้งค่าแยกแต่ละ map ในโหมด Bake",
+            "source": "https://github.com/storytold/texturecraft/pull/257"
+          },
+          {
+            "text": "เพิ่ม camera bookmarks ด้วย Ctrl+1…9 พร้อมการเคลื่อนมุมมองอย่างต่อเนื่อง",
+            "source": "https://github.com/storytold/texturecraft/pull/260"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#texturecraft"
+    },
+    {
+      "id": "materialcraft",
+      "name": "MaterialCraft",
+      "repository": "https://github.com/tapanapon-com/materialcraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/materialcraft",
+        "releaseTag": "v0.2.0",
+        "releaseUrl": "https://github.com/storytold/materialcraft/releases/tag/v0.2.0",
+        "publishedAt": "2026-11-06T20:21:54Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "047afaaa5c08b344526deb967141cfe6f41f7ddc",
+        "sourceVersion": "0.1.3",
+        "macDownload": "https://github.com/storytold/materialcraft/releases/download/v0.2.0/materialcraft-0.2.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/materialcraft/releases/download/v0.2.0/materialcraft-0.2.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/materialcraft/releases/download/v0.2.0/materialcraft-0.2.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/materialcraft/releases/download/v0.2.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "รองรับความโปร่งใสในมุมมอง 3 มิติ และเพิ่มการเลือก ลบ สลับ และจัดเส้นเชื่อมใหม่",
+            "source": "https://github.com/storytold/materialcraft/pull/36"
+          },
+          {
+            "text": "เพิ่ม histogram editor พร้อมตัวจับช่วงค่าใน Levels",
+            "source": "https://github.com/storytold/materialcraft/pull/37"
+          },
+          {
+            "text": "เพิ่ม Export outputs ในเมนูคลิกขวาของกราฟใน explorer",
+            "source": "https://github.com/storytold/materialcraft/pull/25"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#materialcraft"
+    },
+    {
+      "id": "wordcraft",
+      "name": "WordCraft",
+      "repository": "https://github.com/tapanapon-com/wordcraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/wordcraft",
+        "releaseTag": "v0.16.0",
+        "releaseUrl": "https://github.com/storytold/wordcraft/releases/tag/v0.16.0",
+        "publishedAt": "2026-11-06T20:22:22Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "729cd0a5fc953bbedbfdec4f6af18ad6d1780b3b",
+        "sourceVersion": "0.15.1",
+        "macDownload": "https://github.com/storytold/wordcraft/releases/download/v0.16.0/wordcraft-0.16.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/wordcraft/releases/download/v0.16.0/wordcraft-0.16.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/wordcraft/releases/download/v0.16.0/wordcraft-0.16.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/wordcraft/releases/download/v0.16.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "แก้การคลิกในกล่องข้อความให้เข้าตัวอักษร แทนภาพที่อยู่ข้างใต้",
+            "source": "https://github.com/storytold/wordcraft/pull/4240"
+          },
+          {
+            "text": "แสดงว่าฟอนต์ที่เอกสารใช้อยู่ตัวใดยังไม่ได้ติดตั้งในเครื่อง",
+            "source": "https://github.com/storytold/wordcraft/pull/4770"
+          },
+          {
+            "text": "ปรับการอ่าน DOCX ให้ shading แบบ nil ไม่ลงสี และใช้สีกรอบจาก theme ตามที่กำหนด",
+            "source": "https://github.com/storytold/wordcraft/pull/4705"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#wordcraft"
+    },
+    {
+      "id": "soundcraft",
+      "name": "SoundCraft",
+      "repository": "https://github.com/tapanapon-com/soundcraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/soundcraft",
+        "releaseTag": "v0.18.0",
+        "releaseUrl": "https://github.com/storytold/soundcraft/releases/tag/v0.18.0",
+        "publishedAt": "2026-11-06T20:22:08Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "bb0e070ab93d13f7c5acb5a3608e7280f89415cf",
+        "sourceVersion": "0.17.0",
+        "macDownload": "https://github.com/storytold/soundcraft/releases/download/v0.18.0/soundcraft-0.18.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/soundcraft/releases/download/v0.18.0/soundcraft-0.18.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/soundcraft/releases/download/v0.18.0/soundcraft-0.18.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/soundcraft/releases/download/v0.18.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "ปรับการตรวจ controller MIDI ซ้ำโดยแยกตาม channel และชนิด",
+            "source": "https://github.com/storytold/soundcraft/pull/1298"
+          },
+          {
+            "text": "ปรับการจับคู่ automation lanes กับพารามิเตอร์ของ insert ใน Mixer",
+            "source": "https://github.com/storytold/soundcraft/pull/1299"
+          },
+          {
+            "text": "รักษา bext chunk ของไฟล์ต้นทาง BWF ระหว่างการแปลงไฟล์",
+            "source": "https://github.com/storytold/soundcraft/pull/1314"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#soundcraft"
+    },
+    {
+      "id": "deckcraft",
+      "name": "DeckCraft",
+      "repository": "https://github.com/tapanapon-com/deckcraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/deckcraft",
+        "releaseTag": "v0.16.0",
+        "releaseUrl": "https://github.com/storytold/deckcraft/releases/tag/v0.16.0",
+        "publishedAt": "2026-11-06T20:21:27Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "159ed07eb3f0522a5dc97d7cf1858242a6638659",
+        "sourceVersion": "0.15.0",
+        "macDownload": "https://github.com/storytold/deckcraft/releases/download/v0.16.0/deckcraft-0.16.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/deckcraft/releases/download/v0.16.0/deckcraft-0.16.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/deckcraft/releases/download/v0.16.0/deckcraft-0.16.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/deckcraft/releases/download/v0.16.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "ปุ่ม Preview ของ transition เริ่มเล่นตัวอย่างจากสไลด์ก่อนหน้า",
+            "source": "https://github.com/storytold/deckcraft/pull/1679"
+          },
+          {
+            "text": "รักษาขนาด bullet ที่ผู้สร้างกำหนดเป็นหน่วย points",
+            "source": "https://github.com/storytold/deckcraft/pull/1588"
+          },
+          {
+            "text": "เพิ่มป้ายชื่อให้ตัวเลือกของเอฟเฟกต์แอนิเมชัน",
+            "source": "https://github.com/storytold/deckcraft/pull/1579"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#deckcraft"
+    },
+    {
+      "id": "cadcraft",
+      "name": "CADCraft",
+      "repository": "https://github.com/tapanapon-com/cadcraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/cadcraft",
+        "releaseTag": "v0.18.0",
+        "releaseUrl": "https://github.com/storytold/cadcraft/releases/tag/v0.18.0",
+        "publishedAt": "2026-11-06T20:21:13Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "865fa9afb047e6a5053b8f51c3ad4feef90804d2",
+        "sourceVersion": "0.17.0",
+        "macDownload": "https://github.com/storytold/cadcraft/releases/download/v0.18.0/cadcraft-0.18.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/cadcraft/releases/download/v0.18.0/cadcraft-0.18.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/cadcraft/releases/download/v0.18.0/cadcraft-0.18.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/cadcraft/releases/download/v0.18.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "แสดงเมื่อ Autosave ล้มเหลว และกู้งานหลังแอปขัดข้องในการเปิดครั้งแรก",
+            "source": "https://github.com/storytold/cadcraft/pull/2670"
+          },
+          {
+            "text": "เมื่อส่วนติดต่อเกิด panic ให้บันทึกงานและรายงานเหตุการณ์",
+            "source": "https://github.com/storytold/cadcraft/pull/2671"
+          },
+          {
+            "text": "แยกการอ่านและเขียน DWG ไปทำงานในโปรเซสลูก",
+            "source": "https://github.com/storytold/cadcraft/pull/2673"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#cadcraft"
+    },
+    {
+      "id": "gridcraft",
+      "name": "GridCraft",
+      "repository": "https://github.com/tapanapon-com/gridcraft-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/gridcraft",
+        "releaseTag": "v0.17.0",
+        "releaseUrl": "https://github.com/storytold/gridcraft/releases/tag/v0.17.0",
+        "publishedAt": "2026-11-06T20:21:45Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "6a8eb4ff42cfa88b5bdd3eec13c6db3874d95214",
+        "sourceVersion": "0.16.0",
+        "macDownload": "https://github.com/storytold/gridcraft/releases/download/v0.17.0/gridcraft-0.17.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/gridcraft/releases/download/v0.17.0/gridcraft-0.17.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/gridcraft/releases/download/v0.17.0/gridcraft-0.17.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/gridcraft/releases/download/v0.17.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "ปรับจุดอ้างอิงสูตรสัมพัทธ์ใน Data Validation และ Conditional Formatting ให้เริ่มจากเซลล์ซ้ายบนของทุกช่วง",
+            "source": "https://github.com/storytold/gridcraft/pull/3173"
+          },
+          {
+            "text": "ตรวจสิทธิ์ของชีตที่ย้ายคอลัมน์ และปฏิเสธการแก้ไขที่ปลดล็อกเซลล์ซึ่งถูกป้องกัน",
+            "source": "https://github.com/storytold/gridcraft/pull/3196"
+          },
+          {
+            "text": "ปรับการเปลี่ยนชื่อหัวตารางซ้ำใน XLSX เพื่อลดการลอง suffix ที่ถูกใช้แล้ว",
+            "source": "https://github.com/storytold/gridcraft/pull/3213"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#gridcraft"
+    },
+    {
+      "id": "craft-anything",
+      "name": "Craft Anything",
+      "repository": "https://github.com/tapanapon-com/craft-anything-th",
+      "status": "documentation-only",
+      "containsApplicationSource": false,
+      "thaiVersion": null,
+      "thaiArticle": null,
+      "upstream": {
+        "repository": "https://github.com/storytold/craft-anything",
+        "releaseTag": "v0.5.0",
+        "releaseUrl": "https://github.com/storytold/craft-anything/releases/tag/v0.5.0",
+        "publishedAt": "2026-11-06T20:21:17Z",
+        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+        "sourceCommit": "d784d0a609b31414d952589cfd30afbe1168b0cb",
+        "sourceVersion": "0.4.0",
+        "macDownload": "https://github.com/storytold/craft-anything/releases/download/v0.5.0/craft-anything-0.5.0-macos-universal.dmg",
+        "windowsDownload": "https://github.com/storytold/craft-anything/releases/download/v0.5.0/craft-anything-0.5.0-windows-x64.msi",
+        "portableDownload": "https://github.com/storytold/craft-anything/releases/download/v0.5.0/craft-anything-0.5.0-windows-x64-portable.zip",
+        "checksums": "https://github.com/storytold/craft-anything/releases/download/v0.5.0/SHA256SUMS.txt",
+        "changes": [
+          {
+            "text": "ให้ OpenCode ที่รันแบบ native ใช้เครื่องมือ Craft Anything และแสดงการเรียกเครื่องมือได้",
+            "source": "https://github.com/storytold/craft-anything/pull/800"
+          },
+          {
+            "text": "ปรับช่องพิมพ์คำสั่งใน Advanced console ให้เริ่มต้นที่สามบรรทัด",
+            "source": "https://github.com/storytold/craft-anything/pull/979"
+          },
+          {
+            "text": "แก้การจัดประเภทไม่ให้โปรแกรมเล่นวิดีโอหรือเพลงถูกนับเป็นเกม",
+            "source": "https://github.com/storytold/craft-anything/pull/970"
+          }
+        ]
+      },
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#craft-anything"
+    }
+  ]
+}
