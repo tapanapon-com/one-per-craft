@@ -210,7 +210,7 @@
 - [v0.15.1](https://github.com/storytold/deckcraft/releases/tag/v0.15.1) — 2026-11-05T01:24:47Z
 - [v0.15.0](https://github.com/storytold/deckcraft/releases/tag/v0.15.0) — 2026-11-03T00:51:03Z
 
-รุ่นไทยที่เผยแพร่: ยังไม่มี · [GitHub รุ่นไทย](https://github.com/tapanapon-com/deckcraft-th)
+รุ่นไทยที่เผยแพร่: ยังไม่มี · `deckcraft-th` — เตรียม Git ในเครื่องแล้ว รอสร้าง GitHub
 
 ## CADCraft — v0.18.0
 
@@ -226,7 +226,7 @@
 - [v0.17.1](https://github.com/storytold/cadcraft/releases/tag/v0.17.1) — 2026-11-05T01:24:49Z
 - [v0.17.0](https://github.com/storytold/cadcraft/releases/tag/v0.17.0) — 2026-11-03T00:54:01Z
 
-รุ่นไทยที่เผยแพร่: ยังไม่มี · [GitHub รุ่นไทย](https://github.com/tapanapon-com/cadcraft-th)
+รุ่นไทยที่เผยแพร่: ยังไม่มี · `cadcraft-th` — เตรียม Git ในเครื่องแล้ว รอสร้าง GitHub
 
 ## GridCraft — v0.17.0
 
@@ -242,7 +242,7 @@
 - [v0.16.1](https://github.com/storytold/gridcraft/releases/tag/v0.16.1) — 2026-11-05T01:24:51Z
 - [v0.16.0](https://github.com/storytold/gridcraft/releases/tag/v0.16.0) — 2026-11-03T00:45:51Z
 
-รุ่นไทยที่เผยแพร่: ยังไม่มี · [GitHub รุ่นไทย](https://github.com/tapanapon-com/gridcraft-th)
+รุ่นไทยที่เผยแพร่: ยังไม่มี · `gridcraft-th` — เตรียม Git ในเครื่องแล้ว รอสร้าง GitHub
 
 ## Craft Anything — v0.5.0
 
@@ -258,4 +258,4 @@
 - [v0.4.0](https://github.com/storytold/craft-anything/releases/tag/v0.4.0) — 2026-11-06T04:08:45Z
 - [v0.3.0](https://github.com/storytold/craft-anything/releases/tag/v0.3.0) — 2026-11-02T17:58:25Z
 
-รุ่นไทยที่เผยแพร่: ยังไม่มี · [GitHub รุ่นไทย](https://github.com/tapanapon-com/craft-anything-th)
+รุ่นไทยที่เผยแพร่: ยังไม่มี · `craft-anything-th` — เตรียม Git ในเครื่องแล้ว รอสร้าง GitHub
