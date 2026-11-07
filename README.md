@@ -2,7 +2,7 @@
 
 ศูนย์กลางของ Tapanapon สำหรับรู้จัก Craft Apps ครบ 16 แอป รวม GitHub ของแต่ละโครงการ เวอร์ชันต้นฉบับ รุ่นภาษาไทย คู่มือติดตั้ง Mac/Windows และการเชื่อม Codex หรือ Claude
 
-[เว็บไซต์วันละ Craft](https://tapanapon.com/one-per-craft) · [ดาวน์โหลดต้นฉบับครบ 16 แอป](https://tapanapon.com/one-per-craft#all-apps) · [Version Log](https://tapanapon.com/one-per-craft/versions) · [English](#english)
+[เว็บไซต์วันละ Craft](https://tapanapon.com/one-per-craft) · [ดาวน์โหลดต้นฉบับครบ 16 แอป](https://getartcraft.com/apps) · [Version Log](https://tapanapon.com/one-per-craft/versions) · [English](#english)
 
 ## ตอนนี้มีอะไรพร้อมแล้ว?
 
@@ -41,7 +41,7 @@
 | GridCraft | [gridcraft-th](https://github.com/tapanapon-com/gridcraft-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.17.0](https://github.com/storytold/gridcraft/releases/tag/v0.17.0) |
 | Craft Anything | [craft-anything-th](https://github.com/tapanapon-com/craft-anything-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.5.0](https://github.com/storytold/craft-anything/releases/tag/v0.5.0) |
 
-Launcher, ArtCraft Studio, ArtCraft-X และ AniCraft เป็นโครงการเพิ่มเติมซึ่งแสดงแยกใน [Version Log บนเว็บ](https://tapanapon.com/one-per-craft/versions#related-title) ยังไม่ได้สร้าง repo รุ่นไทยเพิ่มเติมให้รายการเหล่านี้ในรอบนี้
+เว็บไซต์แสดงเฉพาะ 3 แอปที่แปลไทยแล้ว ส่วนรายชื่อและเอกสารอีก 13 โครงการคงอยู่ใน GitHub เพื่ออ้างอิงต้นฉบับ ยังไม่แสดงเป็นแอปไทยบนเว็บไซต์
 
 ## ดาวน์โหลดและติดตั้งบน Mac
 
