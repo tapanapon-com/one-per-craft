@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 import subprocess
 
-manifest = json.loads((Path(__file__).resolve().parents[1] / "apps.json").read_text())
+manifest = json.loads((Path(__file__).resolve().parents[1] / "apps.json").read_text(encoding="utf-8"))
 for app in manifest["apps"]:
     repo = app["upstream"]["repository"].split("github.com/", 1)[1]
     result = subprocess.run(["gh", "api", "repos/" + repo + "/releases/latest", "--jq", ".tag_name"], capture_output=True, text=True)

@@ -152,7 +152,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#lightcraft"
+      "versionLog": "https://github.com/tapanapon-com/lightcraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "pdfcraft",
@@ -189,7 +189,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#pdfcraft"
+      "versionLog": "https://github.com/tapanapon-com/pdfcraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "effectcraft",
@@ -226,7 +226,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#effectcraft"
+      "versionLog": "https://github.com/tapanapon-com/effectcraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "designcraft",
@@ -263,7 +263,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#designcraft"
+      "versionLog": "https://github.com/tapanapon-com/designcraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "figcraft",
@@ -300,7 +300,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#figcraft"
+      "versionLog": "https://github.com/tapanapon-com/figcraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "texturecraft",
@@ -337,7 +337,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#texturecraft"
+      "versionLog": "https://github.com/tapanapon-com/texturecraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "materialcraft",
@@ -374,7 +374,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#materialcraft"
+      "versionLog": "https://github.com/tapanapon-com/materialcraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "wordcraft",
@@ -411,7 +411,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#wordcraft"
+      "versionLog": "https://github.com/tapanapon-com/wordcraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "soundcraft",
@@ -448,7 +448,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#soundcraft"
+      "versionLog": "https://github.com/tapanapon-com/soundcraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "deckcraft",
@@ -485,7 +485,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#deckcraft"
+      "versionLog": "https://github.com/tapanapon-com/deckcraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "cadcraft",
@@ -522,7 +522,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#cadcraft"
+      "versionLog": "https://github.com/tapanapon-com/cadcraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "gridcraft",
@@ -559,7 +559,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#gridcraft"
+      "versionLog": "https://github.com/tapanapon-com/gridcraft-th/blob/main/docs/version-log.md"
     },
     {
       "id": "craft-anything",
@@ -596,7 +596,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#craft-anything"
+      "versionLog": "https://github.com/tapanapon-com/craft-anything-th/blob/main/docs/version-log.md"
     }
   ]
 }
