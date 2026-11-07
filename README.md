@@ -6,11 +6,9 @@
 
 ## ตอนนี้มีอะไรพร้อมแล้ว?
 
-> **สถานะการสร้าง GitHub:** มี repo แอปออนไลน์แล้ว 12/16 แอป (3 เดิม + 9 ใหม่) พร้อม repo กลางนี้ อีก 4 แอปเตรียม Git ในเครื่องแล้ว แต่ GitHub จำกัดการสร้าง repo ชั่วคราว จึงยังไม่มีลิงก์ repo สาธารณะของสี่รายการนั้น
-
 **แอปรุ่นภาษาไทยที่เผยแพร่แล้วมี 3 แอป:** VectorCraft TH, PhotoCraft TH และ FilmCraft TH โดยคง repository และไฟล์ Release เดิมไว้ รุ่นไทยเหล่านี้ยังเก่ากว่า Release ต้นฉบับล่าสุด
 
-**อีก 13 โครงการเตรียมเอกสารและ manifest อ้างอิงต้นทางแล้ว:** สร้างบน GitHub สำเร็จ 9 repo ส่วนอีก 4 repo รอข้อจำกัดการสร้างของ GitHub ยกเลิก ยังไม่มีซอร์สแอป คำแปลที่พร้อมแจก หรือไฟล์ติดตั้งภาษาไทยใน repo ใหม่เหล่านี้ การมี repository ครบไม่ใช่การประกาศว่ารุ่นไทยครบ 16 แอปแล้ว
+**อีก 13 repository เริ่มต้นด้วยเอกสารและ manifest อ้างอิงต้นทาง** ยังไม่มีซอร์สแอป คำแปลที่พร้อมแจก หรือไฟล์ติดตั้งภาษาไทยใน repo ใหม่เหล่านี้ การมี repository ครบไม่ใช่การประกาศว่ารุ่นไทยครบ 16 แอปแล้ว
 
 ## ทำอะไรได้บ้าง
 
@@ -38,10 +36,10 @@
 | MaterialCraft | [materialcraft-th](https://github.com/tapanapon-com/materialcraft-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.2.0](https://github.com/storytold/materialcraft/releases/tag/v0.2.0) |
 | WordCraft | [wordcraft-th](https://github.com/tapanapon-com/wordcraft-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.16.0](https://github.com/storytold/wordcraft/releases/tag/v0.16.0) |
 | SoundCraft | [soundcraft-th](https://github.com/tapanapon-com/soundcraft-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.18.0](https://github.com/storytold/soundcraft/releases/tag/v0.18.0) |
-| DeckCraft | `deckcraft-th` (รอสร้าง GitHub) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.16.0](https://github.com/storytold/deckcraft/releases/tag/v0.16.0) |
-| CADCraft | `cadcraft-th` (รอสร้าง GitHub) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.18.0](https://github.com/storytold/cadcraft/releases/tag/v0.18.0) |
-| GridCraft | `gridcraft-th` (รอสร้าง GitHub) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.17.0](https://github.com/storytold/gridcraft/releases/tag/v0.17.0) |
-| Craft Anything | `craft-anything-th` (รอสร้าง GitHub) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.5.0](https://github.com/storytold/craft-anything/releases/tag/v0.5.0) |
+| DeckCraft | [deckcraft-th](https://github.com/tapanapon-com/deckcraft-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.16.0](https://github.com/storytold/deckcraft/releases/tag/v0.16.0) |
+| CADCraft | [cadcraft-th](https://github.com/tapanapon-com/cadcraft-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.18.0](https://github.com/storytold/cadcraft/releases/tag/v0.18.0) |
+| GridCraft | [gridcraft-th](https://github.com/tapanapon-com/gridcraft-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.17.0](https://github.com/storytold/gridcraft/releases/tag/v0.17.0) |
+| Craft Anything | [craft-anything-th](https://github.com/tapanapon-com/craft-anything-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.5.0](https://github.com/storytold/craft-anything/releases/tag/v0.5.0) |
 
 Launcher, ArtCraft Studio, ArtCraft-X และ AniCraft เป็นโครงการเพิ่มเติมซึ่งแสดงแยกใน [Version Log บนเว็บ](https://tapanapon.com/one-per-craft/versions#related-title) ยังไม่ได้สร้าง repo รุ่นไทยเพิ่มเติมให้รายการเหล่านี้ในรอบนี้
 
@@ -87,7 +85,7 @@ Use the app table to find each project, compare upstream and Thai versions, read
 
 ### Downloads and installation
 
-Three Thai applications are already published: VectorCraft TH, PhotoCraft TH and FilmCraft TH. Their repositories/releases are retained. Thirteen additional documentation-only projects are prepared: nine new repositories are published and four local Git repositories await GitHub creation because of a temporary content-creation rate limit. These projects do not yet contain application source trees or Thai installers. Original upstream downloads remain clearly labeled.
+Three Thai applications are already published: VectorCraft TH, PhotoCraft TH and FilmCraft TH. Their repositories/releases are retained. Thirteen additional repositories are documentation-only preparation projects; they do not yet contain application source trees or Thai installers. Original upstream downloads remain clearly labeled.
 
 ### Coverage and validation
 

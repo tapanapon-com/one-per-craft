@@ -453,8 +453,8 @@
     {
       "id": "deckcraft",
       "name": "DeckCraft",
-      "repository": null,
-      "status": "github-creation-pending",
+      "repository": "https://github.com/tapanapon-com/deckcraft-th",
+      "status": "documentation-only",
       "containsApplicationSource": false,
       "thaiVersion": null,
       "thaiArticle": null,
@@ -485,15 +485,13 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#deckcraft",
-      "plannedRepository": "https://github.com/tapanapon-com/deckcraft-th",
-      "localGitReady": true
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#deckcraft"
     },
     {
       "id": "cadcraft",
       "name": "CADCraft",
-      "repository": null,
-      "status": "github-creation-pending",
+      "repository": "https://github.com/tapanapon-com/cadcraft-th",
+      "status": "documentation-only",
       "containsApplicationSource": false,
       "thaiVersion": null,
       "thaiArticle": null,
@@ -524,15 +522,13 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#cadcraft",
-      "plannedRepository": "https://github.com/tapanapon-com/cadcraft-th",
-      "localGitReady": true
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#cadcraft"
     },
     {
       "id": "gridcraft",
       "name": "GridCraft",
-      "repository": null,
-      "status": "github-creation-pending",
+      "repository": "https://github.com/tapanapon-com/gridcraft-th",
+      "status": "documentation-only",
       "containsApplicationSource": false,
       "thaiVersion": null,
       "thaiArticle": null,
@@ -563,15 +559,13 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#gridcraft",
-      "plannedRepository": "https://github.com/tapanapon-com/gridcraft-th",
-      "localGitReady": true
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#gridcraft"
     },
     {
       "id": "craft-anything",
       "name": "Craft Anything",
-      "repository": null,
-      "status": "github-creation-pending",
+      "repository": "https://github.com/tapanapon-com/craft-anything-th",
+      "status": "documentation-only",
       "containsApplicationSource": false,
       "thaiVersion": null,
       "thaiArticle": null,
@@ -602,9 +596,7 @@
           }
         ]
       },
-      "versionLog": "https://tapanapon.com/one-per-craft/versions#craft-anything",
-      "plannedRepository": "https://github.com/tapanapon-com/craft-anything-th",
-      "localGitReady": true
+      "versionLog": "https://tapanapon.com/one-per-craft/versions#craft-anything"
     }
   ]
 }
