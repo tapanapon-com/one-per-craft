@@ -10,6 +10,16 @@
 
 [คู่มือ MSI/Portable/GitHub ฉบับเต็ม](https://tapanapon.com/blog/one-per-craft-install-windows-github)
 
+## รุ่นไทยที่ตรวจแล้ว
+
+| แอป | รุ่น | ดาวน์โหลดและ SHA-256 |
+| --- | --- | --- |
+| PhotoCraft | 0.21.0-th.1 | [Release พร้อมไฟล์และ checksums](https://github.com/tapanapon-com/photocraft-th/releases/tag/v0.21.0-th.1) |
+| VectorCraft | 0.22.0-th.1 | [Release พร้อมไฟล์และ checksums](https://github.com/tapanapon-com/vectorcraft-th/releases/tag/v0.22.0-th.1) |
+| FilmCraft | 0.18.0-th.1 | [Release พร้อมไฟล์และ checksums](https://github.com/tapanapon-com/filmcraft-th/releases/tag/v0.18.0-th.1) |
+
+รุ่นไทยรอบนี้เป็น Mac Apple Silicon (arm64) และ Windows x64 แยกกัน ตรวจชื่อไฟล์ให้ตรงระบบก่อนดาวน์โหลด การอัปเดตรุ่นไทยใช้ดาวน์โหลดจาก Releases โดยตรง
+
 ## English
 
 Use the MSI for installation or extract the complete portable ZIP before launching the app. Select the correct architecture and compare the matching file's SHA-256 from the same release. Source and symbol archives are not ordinary installers.

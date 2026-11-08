@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+  "checkedAt": "2026-11-08T14:15:06.343984+00:00",
   "officialLineup": "https://getartcraft.com/apps",
   "apps": [
     {
@@ -9,16 +9,16 @@
       "repository": "https://github.com/tapanapon-com/photocraft-th",
       "status": "thai-release-published",
       "containsApplicationSource": true,
-      "thaiVersion": "0.20.1-th.1",
+      "thaiVersion": "0.21.0-th.1",
       "thaiArticle": "https://tapanapon.com/blog/photocraft-th-thai-image-editor-mac",
       "upstream": {
         "repository": "https://github.com/storytold/photocraft",
         "releaseTag": "v0.21.0",
         "releaseUrl": "https://github.com/storytold/photocraft/releases/tag/v0.21.0",
         "publishedAt": "2026-11-06T20:22:03Z",
-        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
-        "sourceCommit": "f68e227026701cf24e0e182530694240e2d3cfe4",
-        "sourceVersion": "0.20.1",
+        "checkedAt": "2026-11-08T14:15:06.343984+00:00",
+        "sourceCommit": "efb7ebd0c0dab1fc108ee4642aa47c22694271a8",
+        "sourceVersion": "0.21.0",
         "macDownload": "https://github.com/storytold/photocraft/releases/download/v0.21.0/photocraft-0.21.0-macos-universal.dmg",
         "windowsDownload": "https://github.com/storytold/photocraft/releases/download/v0.21.0/photocraft-0.21.0-windows-x64.msi",
         "portableDownload": "https://github.com/storytold/photocraft/releases/download/v0.21.0/photocraft-0.21.0-windows-x64-portable.zip",
@@ -36,10 +36,46 @@
             "text": "ปรับการนำเข้า PSD/PSB และ EXR ให้ประมวลผลเป็นช่วงที่จำกัดขนาด",
             "source": "https://github.com/storytold/photocraft/pull/5331"
           }
-        ]
+        ],
+        "sourceRef": "v0.21.0"
       },
       "versionLog": "https://tapanapon.com/one-per-craft/versions#photocraft",
-      "thaiReleaseUrl": "https://github.com/tapanapon-com/photocraft-th/releases/tag/v0.20.1-th.1"
+      "thaiReleaseUrl": "https://github.com/tapanapon-com/photocraft-th/releases/tag/v0.21.0-th.1",
+      "thaiChanges": [
+        "รวมซอร์สต้นฉบับ 0.21.0 ทั้ง tag พร้อมคำแปลไทยเดิมและข้อความใหม่",
+        "เพิ่มคำแปล 99 รายการ และแก้การเลือกชื่อฟอนต์เดิมให้ตรงก่อนเลื่อนไปตัวเลือกอื่น",
+        "แค็ตตาล็อกภาษาไทย 4,726 รายการ",
+        "ตัวติดตั้ง Mac Apple Silicon และ Windows x64 รวม CLI สำหรับ MCP"
+      ],
+      "thaiPackages": {
+        "mac": {
+          "name": "PhotoCraft-TH-0.21.0-th.1-macOS-arm64.dmg",
+          "url": "https://github.com/tapanapon-com/photocraft-th/releases/download/v0.21.0-th.1/PhotoCraft-TH-0.21.0-th.1-macOS-arm64.dmg",
+          "sha256": "0162006f4c344ad80bbfb6127a2ab967c332f91b54fc83c840237c5de0c91828",
+          "bytes": 132793135,
+          "mcpTools": 26,
+          "buildCommit": "a66d1801497917f33cf6d4205525f3b6d3f2888e",
+          "checksumsUrl": "https://github.com/tapanapon-com/photocraft-th/releases/download/v0.21.0-th.1/PhotoCraft-TH-0.21.0-th.1-macOS-arm64.dmg.sha256"
+        },
+        "windows": {
+          "msi": {
+            "name": "photocraft-0.21.0-th.1-windows-x64.msi",
+            "url": "https://github.com/tapanapon-com/photocraft-th/releases/download/v0.21.0-th.1/photocraft-0.21.0-th.1-windows-x64.msi",
+            "sha256": "c60d6479a2b9bcd47080ae9ea13b9e982e3a5b41e248335e5094bc2c31554b30",
+            "bytes": 112070656
+          },
+          "portable": {
+            "name": "photocraft-0.21.0-th.1-windows-x64-portable.zip",
+            "url": "https://github.com/tapanapon-com/photocraft-th/releases/download/v0.21.0-th.1/photocraft-0.21.0-th.1-windows-x64-portable.zip",
+            "sha256": "f103d7df52b719fcd2ca6a11a41eaa1065157149dddc56fb0ef5670026558a2d",
+            "bytes": 134463448
+          },
+          "checksumsUrl": "https://github.com/tapanapon-com/photocraft-th/releases/download/v0.21.0-th.1/SHA256SUMS-windows-x64.txt",
+          "buildCommit": "f6e94c18ca847c1381ceccd5682eca54c581fca1",
+          "mcpTools": 26
+        }
+      },
+      "thaiValidation": "https://github.com/tapanapon-com/photocraft-th/blob/main/docs/validation-0.21.0-th.1.json"
     },
     {
       "id": "vectorcraft",
@@ -47,16 +83,16 @@
       "repository": "https://github.com/tapanapon-com/vectorcraft-th",
       "status": "thai-release-published",
       "containsApplicationSource": true,
-      "thaiVersion": "0.21.0-th.1",
+      "thaiVersion": "0.22.0-th.1",
       "thaiArticle": "https://tapanapon.com/blog/vectorcraft-th-thai-vector-editor-mac",
       "upstream": {
         "repository": "https://github.com/storytold/vectorcraft",
         "releaseTag": "v0.22.0",
         "releaseUrl": "https://github.com/storytold/vectorcraft/releases/tag/v0.22.0",
         "publishedAt": "2026-11-06T20:22:17Z",
-        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
-        "sourceCommit": "ff9deee46d1c59dc9ecef0b668c25e57cd80b55e",
-        "sourceVersion": "0.21.0",
+        "checkedAt": "2026-11-08T14:15:06.343984+00:00",
+        "sourceCommit": "654749c16eb20b6d3182a96defb66e11d1a9649a",
+        "sourceVersion": "0.22.0",
         "macDownload": "https://github.com/storytold/vectorcraft/releases/download/v0.22.0/vectorcraft-0.22.0-macos-universal.dmg",
         "windowsDownload": "https://github.com/storytold/vectorcraft/releases/download/v0.22.0/vectorcraft-0.22.0-windows-x64.msi",
         "portableDownload": "https://github.com/storytold/vectorcraft/releases/download/v0.22.0/vectorcraft-0.22.0-windows-x64-portable.zip",
@@ -74,10 +110,46 @@
             "text": "ปรับ PDF export ให้หมึกสีพิเศษที่ชื่อ All หรือ None คงเป็น spot ink",
             "source": "https://github.com/storytold/vectorcraft/pull/5250"
           }
-        ]
+        ],
+        "sourceRef": "v0.22.0"
       },
       "versionLog": "https://tapanapon.com/one-per-craft/versions#vectorcraft",
-      "thaiReleaseUrl": "https://github.com/tapanapon-com/vectorcraft-th/releases/tag/v0.21.0-th.1"
+      "thaiReleaseUrl": "https://github.com/tapanapon-com/vectorcraft-th/releases/tag/v0.22.0-th.1",
+      "thaiChanges": [
+        "รวมซอร์สต้นฉบับ 0.22.0 ทั้ง tag พร้อมคำแปลไทยเดิมและข้อความใหม่",
+        "เพิ่มคำแปล 107 รายการ รวมข้อความใหม่ 11 รายการที่สแกนพบจากซอร์ส",
+        "แค็ตตาล็อกภาษาไทย 7,920 รายการ",
+        "ตัวติดตั้ง Mac Apple Silicon และ Windows x64 รวม CLI สำหรับ MCP"
+      ],
+      "thaiPackages": {
+        "mac": {
+          "name": "VectorCraft-TH-0.22.0-th.1-macOS-arm64.dmg",
+          "url": "https://github.com/tapanapon-com/vectorcraft-th/releases/download/v0.22.0-th.1/VectorCraft-TH-0.22.0-th.1-macOS-arm64.dmg",
+          "sha256": "09f5abb836e9e28b6d47105aad563b5997a97340880ea0fbaad22ec958a802a1",
+          "bytes": 147126134,
+          "mcpTools": 33,
+          "buildCommit": "43629e9c15293f0f95ad3f63e5ab3b69f5baf168",
+          "checksumsUrl": "https://github.com/tapanapon-com/vectorcraft-th/releases/download/v0.22.0-th.1/VectorCraft-TH-0.22.0-th.1-macOS-arm64.dmg.sha256"
+        },
+        "windows": {
+          "msi": {
+            "name": "vectorcraft-0.22.0-th.1-windows-x64.msi",
+            "url": "https://github.com/tapanapon-com/vectorcraft-th/releases/download/v0.22.0-th.1/vectorcraft-0.22.0-th.1-windows-x64.msi",
+            "sha256": "364de38fea4c86ddddf5b8b86ad79f9f467c065b41b4882d30b8c0f0338f5ae7",
+            "bytes": 119443456
+          },
+          "portable": {
+            "name": "vectorcraft-0.22.0-th.1-windows-x64-portable.zip",
+            "url": "https://github.com/tapanapon-com/vectorcraft-th/releases/download/v0.22.0-th.1/vectorcraft-0.22.0-th.1-windows-x64-portable.zip",
+            "sha256": "97f8473428907c9fb2a10a9fce9f14d8cee4ed9b83662bf35ed822a6f3623add",
+            "bytes": 149095935
+          },
+          "checksumsUrl": "https://github.com/tapanapon-com/vectorcraft-th/releases/download/v0.22.0-th.1/SHA256SUMS-windows-x64.txt",
+          "buildCommit": "e80f3d0e99a6ce36a24801957bb908205e9919e7",
+          "mcpTools": 33
+        }
+      },
+      "thaiValidation": "https://github.com/tapanapon-com/vectorcraft-th/blob/main/docs/validation-0.22.0-th.1.json"
     },
     {
       "id": "filmcraft",
@@ -85,16 +157,16 @@
       "repository": "https://github.com/tapanapon-com/filmcraft-th",
       "status": "thai-release-published",
       "containsApplicationSource": true,
-      "thaiVersion": "0.17.1-th.1",
+      "thaiVersion": "0.18.0-th.1",
       "thaiArticle": "https://tapanapon.com/blog/filmcraft-th-thai-video-editor",
       "upstream": {
         "repository": "https://github.com/storytold/filmcraft",
         "releaseTag": "v0.18.0",
         "releaseUrl": "https://github.com/storytold/filmcraft/releases/tag/v0.18.0",
         "publishedAt": "2026-11-06T20:21:40Z",
-        "checkedAt": "2026-11-07T03:59:09.433727+00:00",
-        "sourceCommit": "da535c18433dbe046553733b0ab08ce9bd736a51",
-        "sourceVersion": "0.17.0",
+        "checkedAt": "2026-11-08T14:15:06.343984+00:00",
+        "sourceCommit": "015d5b3ea37e1202a529e6245d3cc021c8c16ffd",
+        "sourceVersion": "0.18.0",
         "macDownload": "https://github.com/storytold/filmcraft/releases/download/v0.18.0/filmcraft-0.18.0-macos-universal.dmg",
         "windowsDownload": "https://github.com/storytold/filmcraft/releases/download/v0.18.0/filmcraft-0.18.0-windows-x64.msi",
         "portableDownload": "https://github.com/storytold/filmcraft/releases/download/v0.18.0/filmcraft-0.18.0-windows-x64-portable.zip",
@@ -112,10 +184,46 @@
             "text": "ตรวจช่วงข้อมูล sample ใน MP4 ก่อนจองหน่วยความจำบนเว็บ",
             "source": "https://github.com/storytold/filmcraft/pull/4102"
           }
-        ]
+        ],
+        "sourceRef": "v0.18.0"
       },
       "versionLog": "https://tapanapon.com/one-per-craft/versions#filmcraft",
-      "thaiReleaseUrl": "https://github.com/tapanapon-com/filmcraft-th/releases/tag/v0.17.1-th.1"
+      "thaiReleaseUrl": "https://github.com/tapanapon-com/filmcraft-th/releases/tag/v0.18.0-th.1",
+      "thaiChanges": [
+        "รวมซอร์สต้นฉบับ 0.18.0 ทั้ง tag พร้อมคำแปลไทยเดิมและข้อความใหม่",
+        "เพิ่มคำแปล 23 รายการ และเพิ่ม filmcraft-cli ในแพ็กเกจ Mac",
+        "แค็ตตาล็อกภาษาไทย 3,786 รายการ",
+        "ตัวติดตั้ง Mac Apple Silicon และ Windows x64 รวม CLI สำหรับ MCP"
+      ],
+      "thaiPackages": {
+        "mac": {
+          "name": "FilmCraft-TH-0.18.0-th.1-macOS-arm64.dmg",
+          "url": "https://github.com/tapanapon-com/filmcraft-th/releases/download/v0.18.0-th.1/FilmCraft-TH-0.18.0-th.1-macOS-arm64.dmg",
+          "sha256": "8e297b81d2ca010a2227a95453fc190414883c026c7eff83b58a2f8881e115af",
+          "bytes": 109756173,
+          "mcpTools": 17,
+          "buildCommit": "43c36df2bbe94edaffebe95f8901a1447c374115",
+          "checksumsUrl": "https://github.com/tapanapon-com/filmcraft-th/releases/download/v0.18.0-th.1/FilmCraft-TH-0.18.0-th.1-macOS-arm64.dmg.sha256"
+        },
+        "windows": {
+          "msi": {
+            "name": "filmcraft-0.18.0-th.1-windows-x64.msi",
+            "url": "https://github.com/tapanapon-com/filmcraft-th/releases/download/v0.18.0-th.1/filmcraft-0.18.0-th.1-windows-x64.msi",
+            "sha256": "e4329b68b94b0d3c1c1853320567bb6e33215c63a9e3a71ad5a88c4cfd9f3ae0",
+            "bytes": 90263552
+          },
+          "portable": {
+            "name": "filmcraft-0.18.0-th.1-windows-x64-portable.zip",
+            "url": "https://github.com/tapanapon-com/filmcraft-th/releases/download/v0.18.0-th.1/filmcraft-0.18.0-th.1-windows-x64-portable.zip",
+            "sha256": "7a38d906552585c7a4e2ef92c53e003a7ec5786e31bdc7fa9caae2b3eaa8931e",
+            "bytes": 109395165
+          },
+          "checksumsUrl": "https://github.com/tapanapon-com/filmcraft-th/releases/download/v0.18.0-th.1/SHA256SUMS-windows-x64.txt",
+          "buildCommit": "5f048e9ab7282461e88412126eaec082e57b5160",
+          "mcpTools": 17
+        }
+      },
+      "thaiValidation": "https://github.com/tapanapon-com/filmcraft-th/blob/main/docs/validation-0.18.0-th.1.json"
     },
     {
       "id": "lightcraft",
@@ -150,7 +258,8 @@
             "text": "ปรับการครอปหลังแก้ความคลาดเลนส์ให้อยู่ภายในภาพที่แก้แล้ว",
             "source": "https://github.com/storytold/lightcraft/pull/3012"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/lightcraft-th/blob/main/docs/version-log.md"
     },
@@ -187,7 +296,8 @@
             "text": "ปรับ Optimize ให้เข้ารหัสภาพ JBIG2 เฉพาะรูปแบบที่ตัวอ่านของแอปรองรับ",
             "source": "https://github.com/storytold/pdfcraft/pull/5511"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/pdfcraft-th/blob/main/docs/version-log.md"
     },
@@ -224,7 +334,8 @@
             "text": "กำหนดโปรไฟล์ Rec. 2100 ให้การนำเข้าวิดีโอ BT.2020 PQ และ HLG",
             "source": "https://github.com/storytold/effectcraft/pull/2852"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/effectcraft-th/blob/main/docs/version-log.md"
     },
@@ -261,7 +372,8 @@
             "text": "ปรับตารางเครดิตใน About ให้พอดีหน้าต่างและปรับขนาดคอลัมน์ได้",
             "source": "https://github.com/storytold/designcraft/pull/2264"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/designcraft-th/blob/main/docs/version-log.md"
     },
@@ -298,7 +410,8 @@
             "text": "แก้การคงระยะกวาดของวงรีในไฟล์ .fig เมื่อมุมเริ่มต้นหมุนหลายรอบ",
             "source": "https://github.com/storytold/figcraft/pull/1891"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/figcraft-th/blob/main/docs/version-log.md"
     },
@@ -335,7 +448,8 @@
             "text": "เพิ่ม camera bookmarks ด้วย Ctrl+1…9 พร้อมการเคลื่อนมุมมองอย่างต่อเนื่อง",
             "source": "https://github.com/storytold/texturecraft/pull/260"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/texturecraft-th/blob/main/docs/version-log.md"
     },
@@ -372,7 +486,8 @@
             "text": "เพิ่ม Export outputs ในเมนูคลิกขวาของกราฟใน explorer",
             "source": "https://github.com/storytold/materialcraft/pull/25"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/materialcraft-th/blob/main/docs/version-log.md"
     },
@@ -409,7 +524,8 @@
             "text": "ปรับการอ่าน DOCX ให้ shading แบบ nil ไม่ลงสี และใช้สีกรอบจาก theme ตามที่กำหนด",
             "source": "https://github.com/storytold/wordcraft/pull/4705"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/wordcraft-th/blob/main/docs/version-log.md"
     },
@@ -446,7 +562,8 @@
             "text": "รักษา bext chunk ของไฟล์ต้นทาง BWF ระหว่างการแปลงไฟล์",
             "source": "https://github.com/storytold/soundcraft/pull/1314"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/soundcraft-th/blob/main/docs/version-log.md"
     },
@@ -483,7 +600,8 @@
             "text": "เพิ่มป้ายชื่อให้ตัวเลือกของเอฟเฟกต์แอนิเมชัน",
             "source": "https://github.com/storytold/deckcraft/pull/1579"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/deckcraft-th/blob/main/docs/version-log.md"
     },
@@ -520,7 +638,8 @@
             "text": "แยกการอ่านและเขียน DWG ไปทำงานในโปรเซสลูก",
             "source": "https://github.com/storytold/cadcraft/pull/2673"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/cadcraft-th/blob/main/docs/version-log.md"
     },
@@ -557,7 +676,8 @@
             "text": "ปรับการเปลี่ยนชื่อหัวตารางซ้ำใน XLSX เพื่อลดการลอง suffix ที่ถูกใช้แล้ว",
             "source": "https://github.com/storytold/gridcraft/pull/3213"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/gridcraft-th/blob/main/docs/version-log.md"
     },
@@ -594,7 +714,8 @@
             "text": "แก้การจัดประเภทไม่ให้โปรแกรมเล่นวิดีโอหรือเพลงถูกนับเป็นเกม",
             "source": "https://github.com/storytold/craft-anything/pull/970"
           }
-        ]
+        ],
+        "releaseCheckedAt": "2026-11-08T14:15:06.343984+00:00"
       },
       "versionLog": "https://github.com/tapanapon-com/craft-anything-th/blob/main/docs/version-log.md"
     }

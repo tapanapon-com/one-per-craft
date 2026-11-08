@@ -12,6 +12,16 @@
 
 [คู่มือฉบับเต็มบนเว็บ](https://tapanapon.com/blog/one-per-craft-install-mac-github)
 
+## รุ่นไทยที่ตรวจแล้ว
+
+| แอป | รุ่น | ดาวน์โหลดและ SHA-256 |
+| --- | --- | --- |
+| PhotoCraft | 0.21.0-th.1 | [Release พร้อมไฟล์และ checksums](https://github.com/tapanapon-com/photocraft-th/releases/tag/v0.21.0-th.1) |
+| VectorCraft | 0.22.0-th.1 | [Release พร้อมไฟล์และ checksums](https://github.com/tapanapon-com/vectorcraft-th/releases/tag/v0.22.0-th.1) |
+| FilmCraft | 0.18.0-th.1 | [Release พร้อมไฟล์และ checksums](https://github.com/tapanapon-com/filmcraft-th/releases/tag/v0.18.0-th.1) |
+
+รุ่นไทยรอบนี้เป็น Mac Apple Silicon (arm64) และ Windows x64 แยกกัน ตรวจชื่อไฟล์ให้ตรงระบบก่อนดาวน์โหลด การอัปเดตรุ่นไทยใช้ดาวน์โหลดจาก Releases โดยตรง
+
 ## English
 
 Choose a real published Thai release or the current upstream release, check chip/OS requirements, select its DMG in Release Assets, verify the matching checksum and drag the app into Applications. Source archives require a build. The three Thai releases and upstream Universal packages have different architecture/signing notes; read the selected release's instructions.

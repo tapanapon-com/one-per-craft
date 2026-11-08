@@ -6,7 +6,7 @@
 
 ## ตอนนี้มีอะไรพร้อมแล้ว?
 
-**แอปรุ่นภาษาไทยที่เผยแพร่แล้วมี 3 แอป:** VectorCraft TH, PhotoCraft TH และ FilmCraft TH โดยคง repository และไฟล์ Release เดิมไว้ รุ่นไทยเหล่านี้ยังเก่ากว่า Release ต้นฉบับล่าสุด
+**แอปรุ่นภาษาไทยที่เผยแพร่แล้วมี 3 แอป:** VectorCraft TH, PhotoCraft TH และ FilmCraft TH โดยคง repository และไฟล์ Release เดิมไว้ รุ่นไทยทั้ง 3 รวม tag ต้นฉบับล่าสุดที่ตรวจ พร้อมตัวติดตั้ง Mac Apple Silicon / Windows x64 และผลตรวจแยกตามแพลตฟอร์ม
 
 **อีก 13 repository เริ่มต้นด้วยเอกสารและ manifest อ้างอิงต้นทาง** ยังไม่มีซอร์สแอป คำแปลที่พร้อมแจก หรือไฟล์ติดตั้งภาษาไทยใน repo ใหม่เหล่านี้ การมี repository ครบไม่ใช่การประกาศว่ารุ่นไทยครบ 16 แอปแล้ว
 
@@ -20,13 +20,13 @@
 
 ## แอปทั้งหมดและ GitHub แยก
 
-อ้างอิง [รายชื่อ Craft Apps ทางการ 16 แอป](https://getartcraft.com/apps) · ตรวจ Release ต้นฉบับ 07/11/2026 10:59 ICT
+อ้างอิง [รายชื่อ Craft Apps ทางการ 16 แอป](https://getartcraft.com/apps) · ตรวจ Release ต้นฉบับ 08/11/2026 21:15 ICT
 
 | แอป / App | GitHub รุ่นไทย | สถานะรุ่นไทย | ต้นฉบับล่าสุด |
 | --- | --- | --- | --- |
-| PhotoCraft | [photocraft-th](https://github.com/tapanapon-com/photocraft-th) | [0.20.1-th.1](https://github.com/tapanapon-com/photocraft-th/releases/tag/v0.20.1-th.1) · รุ่นไทยที่เผยแพร่ | [v0.21.0](https://github.com/storytold/photocraft/releases/tag/v0.21.0) |
-| VectorCraft | [vectorcraft-th](https://github.com/tapanapon-com/vectorcraft-th) | [0.21.0-th.1](https://github.com/tapanapon-com/vectorcraft-th/releases/tag/v0.21.0-th.1) · รุ่นไทยที่เผยแพร่ | [v0.22.0](https://github.com/storytold/vectorcraft/releases/tag/v0.22.0) |
-| FilmCraft | [filmcraft-th](https://github.com/tapanapon-com/filmcraft-th) | [0.17.1-th.1](https://github.com/tapanapon-com/filmcraft-th/releases/tag/v0.17.1-th.1) · รุ่นไทยที่เผยแพร่ | [v0.18.0](https://github.com/storytold/filmcraft/releases/tag/v0.18.0) |
+| PhotoCraft | [photocraft-th](https://github.com/tapanapon-com/photocraft-th) | [0.21.0-th.1](https://github.com/tapanapon-com/photocraft-th/releases/tag/v0.21.0-th.1) · รุ่นไทยที่เผยแพร่ | [v0.21.0](https://github.com/storytold/photocraft/releases/tag/v0.21.0) |
+| VectorCraft | [vectorcraft-th](https://github.com/tapanapon-com/vectorcraft-th) | [0.22.0-th.1](https://github.com/tapanapon-com/vectorcraft-th/releases/tag/v0.22.0-th.1) · รุ่นไทยที่เผยแพร่ | [v0.22.0](https://github.com/storytold/vectorcraft/releases/tag/v0.22.0) |
+| FilmCraft | [filmcraft-th](https://github.com/tapanapon-com/filmcraft-th) | [0.18.0-th.1](https://github.com/tapanapon-com/filmcraft-th/releases/tag/v0.18.0-th.1) · รุ่นไทยที่เผยแพร่ | [v0.18.0](https://github.com/storytold/filmcraft/releases/tag/v0.18.0) |
 | LightCraft | [lightcraft-th](https://github.com/tapanapon-com/lightcraft-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.19.0](https://github.com/storytold/lightcraft/releases/tag/v0.19.0) |
 | PdfCraft | [pdfcraft-th](https://github.com/tapanapon-com/pdfcraft-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.19.0](https://github.com/storytold/pdfcraft/releases/tag/v0.19.0) |
 | EffectCraft | [effectcraft-th](https://github.com/tapanapon-com/effectcraft-th) | เอกสาร/เตรียมรุ่นไทย · ยังไม่มีแอป TH | [v0.22.0](https://github.com/storytold/effectcraft/releases/tag/v0.22.0) |
@@ -89,8 +89,10 @@ Three Thai applications are already published: VectorCraft TH, PhotoCraft TH and
 
 ### Coverage and validation
 
-Release metadata and asset links were checked at 07/11/2026 10:59 ICT. Native runtime validation of all upstream applications is not claimed. No new Thai binary is published simply by creating these repositories. Source, release and Thai-edition versions are tracked separately.
+Release metadata and asset links were checked at 08/11/2026 21:15 ICT. Native runtime validation of all upstream applications is not claimed. No new Thai binary is published simply by creating these repositories. Source, release and Thai-edition versions are tracked separately.
 
 ### Source and credits
 
 Original applications by storytold / ArtCraft. Independent Thai edition work and documentation by Tapanapon / One Per Craft. New hub files are MIT-licensed; original applications, assets, fonts and trademarks retain their respective terms. This is not an official or endorsed ArtCraft distribution.
+
+Thai editions currently require manual updates from their own Releases pages; the upstream automatic checker excludes `-th.1` prereleases.
