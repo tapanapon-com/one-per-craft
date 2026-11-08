@@ -1,6 +1,6 @@
 # Version Log / บันทึกรุ่นต้นฉบับ
 
-ตรวจข้อมูล 07/11/2026 10:59 ICT · เป็น snapshot ของ GitHub Releases ไม่ใช่การอัปเดตอัตโนมัติ
+ตรวจข้อมูล 08/11/2026 21:15 ICT · เป็น snapshot ของ GitHub Releases ไม่ใช่การอัปเดตอัตโนมัติ
 
 ต้นฉบับกับรุ่นไทยมีเวอร์ชันและผลทดสอบแยกกัน รุ่นไทยที่เผยแพร่มี 3 แอป อีก 13 repo ยังเป็นเอกสาร/manifest เท่านั้น
 
@@ -18,7 +18,9 @@
 - [v0.20.2](https://github.com/storytold/photocraft/releases/tag/v0.20.2) — 2026-11-05T01:48:22Z
 - [v0.20.1](https://github.com/storytold/photocraft/releases/tag/v0.20.1) — 2026-11-03T01:24:40Z
 
-รุ่นไทยที่เผยแพร่: 0.20.1-th.1 · [GitHub รุ่นไทย](https://github.com/tapanapon-com/photocraft-th)
+รุ่นไทยที่เผยแพร่: 0.21.0-th.1 · [GitHub รุ่นไทย](https://github.com/tapanapon-com/photocraft-th) · [Version Log รุ่นไทย](https://github.com/tapanapon-com/photocraft-th/blob/main/docs/version-log.md)
+
+รวม tag ต้นฉบับ v0.21.0 ที่ `efb7ebd0c0dab1fc108ee4642aa47c22694271a8`; คำแปลไทย 4,726 รายการ. ตรวจ Mac จาก DMG จริง: ภาษาไทย บันทึก–เปิดไฟล์งาน และภาพผลลัพธ์ผ่าน; MCP 26 เครื่องมือ. Windows x64 ผ่าน native build/CLI/MCP (26 เครื่องมือ), โครงสร้างแพ็กเกจและ SHA-256; ยังไม่ได้ทดสอบทุก workflow ผ่านหน้าจอ Windows [ผลตรวจและ hashes](https://github.com/tapanapon-com/photocraft-th/blob/main/docs/validation-0.21.0-th.1.json)
 
 ## VectorCraft — v0.22.0
 
@@ -34,7 +36,9 @@
 - [v0.21.1](https://github.com/storytold/vectorcraft/releases/tag/v0.21.1) — 2026-11-05T02:06:59Z
 - [v0.21.0](https://github.com/storytold/vectorcraft/releases/tag/v0.21.0) — 2026-11-03T01:14:20Z
 
-รุ่นไทยที่เผยแพร่: 0.21.0-th.1 · [GitHub รุ่นไทย](https://github.com/tapanapon-com/vectorcraft-th)
+รุ่นไทยที่เผยแพร่: 0.22.0-th.1 · [GitHub รุ่นไทย](https://github.com/tapanapon-com/vectorcraft-th) · [Version Log รุ่นไทย](https://github.com/tapanapon-com/vectorcraft-th/blob/main/docs/version-log.md)
+
+รวม tag ต้นฉบับ v0.22.0 ที่ `654749c16eb20b6d3182a96defb66e11d1a9649a`; คำแปลไทย 7,920 รายการ. ตรวจ Mac จาก DMG จริง: ภาษาไทย บันทึก–เปิดไฟล์งาน และภาพผลลัพธ์ผ่าน; MCP 33 เครื่องมือ. Windows x64 ผ่าน native build/CLI/MCP (33 เครื่องมือ), โครงสร้างแพ็กเกจและ SHA-256; ยังไม่ได้ทดสอบทุก workflow ผ่านหน้าจอ Windows [ผลตรวจและ hashes](https://github.com/tapanapon-com/vectorcraft-th/blob/main/docs/validation-0.22.0-th.1.json)
 
 ## FilmCraft — v0.18.0
 
@@ -50,7 +54,9 @@
 - [v0.17.1](https://github.com/storytold/filmcraft/releases/tag/v0.17.1) — 2026-11-05T01:47:53Z
 - [v0.17.0](https://github.com/storytold/filmcraft/releases/tag/v0.17.0) — 2026-11-03T00:53:23Z
 
-รุ่นไทยที่เผยแพร่: 0.17.1-th.1 · [GitHub รุ่นไทย](https://github.com/tapanapon-com/filmcraft-th)
+รุ่นไทยที่เผยแพร่: 0.18.0-th.1 · [GitHub รุ่นไทย](https://github.com/tapanapon-com/filmcraft-th) · [Version Log รุ่นไทย](https://github.com/tapanapon-com/filmcraft-th/blob/main/docs/version-log.md)
+
+รวม tag ต้นฉบับ v0.18.0 ที่ `015d5b3ea37e1202a529e6245d3cc021c8c16ffd`; คำแปลไทย 3,786 รายการ. ตรวจ Mac จาก DMG จริง: ภาษาไทย บันทึก–เปิดไฟล์งาน และภาพผลลัพธ์ผ่าน; MCP 17 เครื่องมือ. Windows x64 ผ่าน native build/CLI/MCP (17 เครื่องมือ), โครงสร้างแพ็กเกจและ SHA-256; ยังไม่ได้ทดสอบทุก workflow ผ่านหน้าจอ Windows [ผลตรวจและ hashes](https://github.com/tapanapon-com/filmcraft-th/blob/main/docs/validation-0.18.0-th.1.json)
 
 ## LightCraft — v0.19.0
 

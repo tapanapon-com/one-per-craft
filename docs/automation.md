@@ -9,7 +9,17 @@
 
 โหมด headless ไม่เปลี่ยนงานในหน้าต่าง GUI ที่เปิดค้างโดยอัตโนมัติ การมี app repository หรือ source ZIP ไม่ได้ติดตั้ง CLI/MCP ให้เครื่องของผู้ใช้
 
-คู่มือเดิมมีผลทดสอบ MCP initialize/tools-list ของ VectorCraft และ PhotoCraft บน Mac ส่วนแอปอื่นอ้างอิงเอกสารต้นทาง ไม่อ้างว่าได้ทดสอบ runtime รุ่นไทยครบ 16 แอปแล้ว
+ทั้ง 3 รุ่นไทยผ่าน MCP initialize/tools-list จาก CLI ในแพ็กเกจ Mac ที่ mount จริง และจาก Windows x64 CI ส่วนอีก 13 แอปอ้างอิงเอกสารต้นทาง ยังไม่ใช่แอปไทยที่ทดสอบ runtime แล้ว
+
+## CLI ที่แนบในแพ็กเกจ Mac
+
+| แอป | รุ่นไทย | พาธ CLI หลังลากแอปเข้า Applications |
+| --- | --- | --- |
+| PhotoCraft | 0.21.0-th.1 | `/Applications/PhotoCraft.app/Contents/MacOS/photocraft-cli` |
+| VectorCraft | 0.22.0-th.1 | `/Applications/VectorCraft.app/Contents/MacOS/vectorcraft-cli` |
+| FilmCraft | 0.18.0-th.1 | `/Applications/FilmCraft.app/Contents/MacOS/filmcraft-cli` |
+
+Windows MSI/portable รวม `<app>-cli.exe` ข้าง GUI ให้ใช้พาธติดตั้งจริง ไม่ใช้พาธ Mac บน Windows อ่าน flags ของแต่ละแอปจากคู่มือรวมก่อนลงทะเบียน โดยเฉพาะ VectorCraft ที่ต้องกำหนดโฟลเดอร์อ่านและเขียนให้มีอยู่จริง
 
 ## English
 
