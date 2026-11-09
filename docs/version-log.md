@@ -2,7 +2,7 @@
 
 ตรวจข้อมูล 08/11/2026 21:15 ICT · เป็น snapshot ของ GitHub Releases ไม่ใช่การอัปเดตอัตโนมัติ
 
-ต้นฉบับกับรุ่นไทยมีเวอร์ชันและผลทดสอบแยกกัน รุ่นไทยที่เผยแพร่มี 3 แอป อีก 13 repo ยังเป็นเอกสาร/manifest เท่านั้น
+ต้นฉบับกับรุ่นไทยมีเวอร์ชันและผลทดสอบแยกกัน รุ่นไทยที่เผยแพร่มี 4 แอป อีก 12 repo ยังเป็นเอกสาร/manifest เท่านั้น
 
 ## PhotoCraft — v0.21.0
 
@@ -58,21 +58,25 @@
 
 รวม tag ต้นฉบับ v0.18.0 ที่ `015d5b3ea37e1202a529e6245d3cc021c8c16ffd`; คำแปลไทย 3,786 รายการ. ตรวจ Mac จาก DMG จริง: ภาษาไทย บันทึก–เปิดไฟล์งาน และภาพผลลัพธ์ผ่าน; MCP 17 เครื่องมือ. Windows x64 ผ่าน native build/CLI/MCP (17 เครื่องมือ), โครงสร้างแพ็กเกจและ SHA-256; ยังไม่ได้ทดสอบทุก workflow ผ่านหน้าจอ Windows [ผลตรวจและ hashes](https://github.com/tapanapon-com/filmcraft-th/blob/main/docs/validation-0.18.0-th.1.json)
 
-## LightCraft — v0.19.0
+## LightCraft — v0.20.0
 
-[Release Notes ต้นฉบับ](https://github.com/storytold/lightcraft/releases/tag/v0.19.0) · เผยแพร่ 2026-11-06T20:21:50Z UTC
+[Release Notes ต้นฉบับ](https://github.com/storytold/lightcraft/releases/tag/v0.20.0) · เผยแพร่ 2026-11-09T11:57:03Z UTC
 
-- ใช้ไลบรารี craftlib สำหรับการอ่านไฟล์ CRW — [ต้นทาง](https://github.com/storytold/lightcraft/pull/3503)
-- แก้การเลือกโปรไฟล์เลนส์เมื่อต่อ teleconverter ไม่ให้ใช้โปรไฟล์ของเลนส์เดี่ยวผิดชุด — [ต้นทาง](https://github.com/storytold/lightcraft/pull/3660)
-- ปรับการครอปหลังแก้ความคลาดเลนส์ให้อยู่ภายในภาพที่แก้แล้ว — [ต้นทาง](https://github.com/storytold/lightcraft/pull/3012)
+- นำเข้ามาสก์แบบกลับด้านจาก Lightroom ให้ตรงกับการแก้ไขที่บันทึกไว้ — [ต้นทาง](https://github.com/storytold/lightcraft/pull/3862)
+- ถอนการถอดรหัส ORF แบบบีบอัดระหว่างตรวจสอบที่มาของโค้ด จึงอาจเปิดได้เฉพาะ preview ในบางไฟล์ — [ต้นทาง](https://github.com/storytold/lightcraft/pull/3916)
+- แก้สมดุลสีขาวแบบ Kelvin สำหรับ Fujifilm DNG ที่ผ่าน DxO demosaic — [ต้นทาง](https://github.com/storytold/lightcraft/pull/3887)
+- เพิ่ม film grain จากชั้นผลึกใน process V4 โดยไม่เพิ่มต้นทุนงาน GPU — [ต้นทาง](https://github.com/storytold/lightcraft/pull/3630)
+- แสดงสถานะติดตั้งอัปเดต พร้อมติดตั้งเมื่อออกจากแอปในต้นฉบับ — [ต้นทาง](https://github.com/storytold/lightcraft/pull/3995)
 
 ### ประวัติรุ่นที่ตรวจ
 
+- [v0.20.0](https://github.com/storytold/lightcraft/releases/tag/v0.20.0) — 2026-11-09T11:57:03Z
 - [v0.19.0](https://github.com/storytold/lightcraft/releases/tag/v0.19.0) — 2026-11-06T20:21:50Z
 - [v0.18.1](https://github.com/storytold/lightcraft/releases/tag/v0.18.1) — 2026-11-05T01:25:33Z
-- [v0.18.0](https://github.com/storytold/lightcraft/releases/tag/v0.18.0) — 2026-11-03T00:54:20Z
 
-รุ่นไทยที่เผยแพร่: ยังไม่มี · [GitHub รุ่นไทย](https://github.com/tapanapon-com/lightcraft-th)
+รุ่นไทยที่เผยแพร่: 0.20.0-th.1 · [GitHub รุ่นไทย](https://github.com/tapanapon-com/lightcraft-th) · [Version Log และผลตรวจ](https://github.com/tapanapon-com/lightcraft-th/blob/main/docs/version-log.md)
+
+รวม tag v0.20.0 ที่ `192ff72923c39e6623f2c7ff67ab3a119deb8071`; แค็ตตาล็อกไทย 4,180 รายการ พร้อม Mac Apple Silicon / Windows x64 และ CLI สำหรับ MCP. Mac ตรวจจาก DMG จริง: ภาษาไทย จำตัวเลือกภาษา บันทึก–เปิดคลังภาพเดิมพร้อมดาว/การรับแสง ส่งออก PNG และภาพหน้าจอผ่าน; MCP 406 เครื่องมือ. Windows x64 ผ่าน native build/CLI/MCP (406 เครื่องมือ), installer policy, แพ็กเกจและ SHA-256; ยังไม่ได้ทดสอบแก้ภาพผ่านหน้าจอ Windows ด้วยตนเอง. บันทึกย้อนหลัง What’s New บางส่วนยังเป็นอังกฤษ
 
 ## PdfCraft — v0.19.0
 
