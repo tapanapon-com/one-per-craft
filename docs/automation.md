@@ -9,7 +9,7 @@
 
 โหมด headless ไม่เปลี่ยนงานในหน้าต่าง GUI ที่เปิดค้างโดยอัตโนมัติ การมี app repository หรือ source ZIP ไม่ได้ติดตั้ง CLI/MCP ให้เครื่องของผู้ใช้
 
-ทั้ง 3 รุ่นไทยผ่าน MCP initialize/tools-list จาก CLI ในแพ็กเกจ Mac ที่ mount จริง และจาก Windows x64 CI ส่วนอีก 13 แอปอ้างอิงเอกสารต้นทาง ยังไม่ใช่แอปไทยที่ทดสอบ runtime แล้ว
+ทั้ง 4 รุ่นไทยผ่าน MCP initialize/tools-list จาก CLI ในแพ็กเกจ Mac ที่ mount จริง และจาก Windows x64 CI ส่วนอีก 12 แอปอ้างอิงเอกสารต้นทาง ยังไม่ใช่แอปไทยที่ทดสอบ runtime แล้ว
 
 ## CLI ที่แนบในแพ็กเกจ Mac
 
@@ -18,8 +18,15 @@
 | PhotoCraft | 0.21.0-th.1 | `/Applications/PhotoCraft.app/Contents/MacOS/photocraft-cli` |
 | VectorCraft | 0.22.0-th.1 | `/Applications/VectorCraft.app/Contents/MacOS/vectorcraft-cli` |
 | FilmCraft | 0.18.0-th.1 | `/Applications/FilmCraft.app/Contents/MacOS/filmcraft-cli` |
+| LightCraft | 0.20.0-th.1 | `/Applications/LightCraft.app/Contents/MacOS/lightcraft-cli` |
 
 Windows MSI/portable รวม `<app>-cli.exe` ข้าง GUI ให้ใช้พาธติดตั้งจริง ไม่ใช้พาธ Mac บน Windows อ่าน flags ของแต่ละแอปจากคู่มือรวมก่อนลงทะเบียน โดยเฉพาะ VectorCraft ที่ต้องกำหนดโฟลเดอร์อ่านและเขียนให้มีอยู่จริง
+
+## LightCraft TH
+
+เริ่ม headless แบบคลังภาพสาธิตด้วย `lightcraft-cli mcp --demo` หรือใช้ `mcp --library DIR` สำหรับคลังภาพที่เก็บงานต่อได้ ให้ client เรียก CLI ด้วย absolute path หาก GUI เปิดคลังภาพนั้นอยู่ ให้เปิดแอปพร้อม `--control 7980` และเชื่อมด้วย `mcp --connect 127.0.0.1:7980` แทนการเปิดคลังภาพเดียวกันซ้ำ
+
+LightCraft ไม่มี `--automation-read-root` / `--automation-write-root`; `--library` ระบุตำแหน่งคลังภาพ ไม่ได้จำกัดสิทธิ์ไฟล์ ดู [คำสั่ง Mac, Windows, Codex และ Claude](https://github.com/tapanapon-com/lightcraft-th/blob/main/docs/localization-th.md)
 
 ## English
 

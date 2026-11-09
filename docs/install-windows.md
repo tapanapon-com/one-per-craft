@@ -20,6 +20,10 @@
 
 รุ่นไทยรอบนี้เป็น Mac Apple Silicon (arm64) และ Windows x64 แยกกัน ตรวจชื่อไฟล์ให้ตรงระบบก่อนดาวน์โหลด การอัปเดตรุ่นไทยใช้ดาวน์โหลดจาก Releases โดยตรง
 
+## LightCraft TH 0.20.0-th.1
+
+[ดาวน์โหลด lightcraft-0.20.0-th.1-windows-x64.msi](https://github.com/tapanapon-com/lightcraft-th/releases/download/v0.20.0-th.1/lightcraft-0.20.0-th.1-windows-x64.msi) · [ไฟล์อื่นและ SHA-256](https://github.com/tapanapon-com/lightcraft-th/releases/tag/v0.20.0-th.1) · [วิธีติดตั้งภาษาไทยและภาพหน้าจอ](https://tapanapon.com/blog/lightcraft-th-thai-raw-photo-editor)
+
 ## English
 
 Use the MSI for installation or extract the complete portable ZIP before launching the app. Select the correct architecture and compare the matching file's SHA-256 from the same release. Source and symbol archives are not ordinary installers.

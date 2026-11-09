@@ -1,6 +1,6 @@
 # ติดตั้งบน Mac / macOS installation
 
-เลือกแอปจาก [ตารางรวม](../README.md#แอปทั้งหมดและ-github-แยก) หรือ [เว็บไซต์](https://tapanapon.com/one-per-craft) โดยแยกต้นฉบับล่าสุดจากรุ่นไทยที่มีจริง 3 แอป
+เลือกแอปจาก [ตารางรวม](../README.md#แอปทั้งหมดและ-github-แยก) หรือ [เว็บไซต์](https://tapanapon.com/one-per-craft) โดยแยกต้นฉบับล่าสุดจากรุ่นไทยที่มีจริง 4 แอป
 
 1. ตรวจ Chip และ macOS version จาก Apple → About This Mac
 2. เปิด GitHub Releases ของแอปและรุ่นที่ต้องการ ขยาย Assets แล้วเลือก DMG ตามข้อกำหนดระบบ
@@ -22,6 +22,10 @@
 
 รุ่นไทยรอบนี้เป็น Mac Apple Silicon (arm64) และ Windows x64 แยกกัน ตรวจชื่อไฟล์ให้ตรงระบบก่อนดาวน์โหลด การอัปเดตรุ่นไทยใช้ดาวน์โหลดจาก Releases โดยตรง
 
+## LightCraft TH 0.20.0-th.1
+
+[ดาวน์โหลด lightcraft-0.20.0-th.1-macos-aarch64.dmg](https://github.com/tapanapon-com/lightcraft-th/releases/download/v0.20.0-th.1/lightcraft-0.20.0-th.1-macos-aarch64.dmg) · [ไฟล์อื่นและ SHA-256](https://github.com/tapanapon-com/lightcraft-th/releases/tag/v0.20.0-th.1) · [วิธีติดตั้งภาษาไทยและภาพหน้าจอ](https://tapanapon.com/blog/lightcraft-th-thai-raw-photo-editor)
+
 ## English
 
-Choose a real published Thai release or the current upstream release, check chip/OS requirements, select its DMG in Release Assets, verify the matching checksum and drag the app into Applications. Source archives require a build. The three Thai releases and upstream Universal packages have different architecture/signing notes; read the selected release's instructions.
+Choose a real published Thai release or the current upstream release, check chip/OS requirements, select its DMG in Release Assets, verify the matching checksum and drag the app into Applications. Source archives require a build. The four Thai releases and upstream Universal packages have different architecture/signing notes; read the selected release's instructions.
